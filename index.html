@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Challenge day2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <div class="wrapper">
+        <div class="container">
+          <div class="box one">My Survey</div>
+          <div class="box two">
+            <h2>Customer Satisfactory Survey</h2>
+            <p>
+              Please help mariamillustrations improve by taking the short survey
+              we value your response
+            </p>
+          </div>
+          <div class="box three">
+            <p class="second-p">
+              How Satisfied are you with the service you recieved?
+            </p>
+            <label for="satisfaction1" class="radio">
+              <input type="radio" name="options" id="satisfaction1" />
+              Satisfactory
+            </label>
+            <label for="satisfaction2" class="radio">
+              <input type="radio" name="options" id="satisfaction2" />
+              Neutral
+            </label>
+            <label for="satisfaction3" class="radio">
+              <input type="radio" name="options" id="satisfaction3" />
+              Not Satisfactory
+            </label>
+          </div>
+          <div class="box four">
+            <p class="third-p">Are you satisfied with our prints?</p>
+            <label for="satisfaction" class="radio">
+              <input type="radio" name="yes/No" id="yes" />
+              Yes
+            </label>
+            <label for="satisfaction" class="radio">
+              <input type="radio" name="yes/No" id="satisfaction" />
+              No
+            </label>
+          </div>
+          <div class="box five">
+            <p class="fourth-p">How is our delivery service?</p>
+            <label for="satisfaction" class="radio">
+              <input type="radio" name="delivery" id="satisfaction" />
+              Very Fast
+            </label>
+            <label for="satisfaction" class="radio">
+              <input type="radio" name="delivery" id="satisfaction" />
+              Never makes it on time
+            </label>
+          </div>
+          <div class="box six">
+            <p class="fifth-p">
+              If your option was never makes it on time please leave a
+              suggestion below
+            </p>
+            <textarea
+              class="fillings"
+              name="suggestion"
+              id="text1"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="box seven">
+            <p class="sixth-p">
+              Give an overview of our services in a short sentence
+            </p>
+            <textarea
+              class="fillings"
+              name="overview"
+              id="text2"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="submit-btn">
+            <a href="submit.html"></a>submit response
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
